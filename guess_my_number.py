@@ -18,7 +18,6 @@ def main():
     max_range = verify_int(max_range)
 
     random_num = generate_random(max_range)
-    print random_num
     user_correct = False
     while(user_correct != True):
         user_guess = verify_int(raw_input("Take a guess: "))
